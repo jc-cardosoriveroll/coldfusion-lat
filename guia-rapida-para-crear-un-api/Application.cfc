@@ -22,10 +22,12 @@
     
     <!--- FUNCION PARA INICIALIZAR APIS (con url.init)--->
     <cffunction name="onRequest">
+        <cfargument name="targetPage">
         <cfif isdefined("url.init")>
             <cfset restInitApplication("C:\wwwroot\apis","APIS")>
             <cfset onApplicationStart()>     
         </cfif>
+        <cfinclude template="#arguments.targetPage#">
         <cfreturn>
     </cffunction>
  
