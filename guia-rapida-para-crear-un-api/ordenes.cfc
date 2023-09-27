@@ -33,7 +33,7 @@
           <!---------------------------------->
           <!------- REGRESAR DATA JSON  ------>
           <!---------------------------------->
-          <cfreturn serializedata(local.result)>
+          <cfreturn serializeJSON(local.result)>
 
     </cffunction>
 </cfcomponent>
