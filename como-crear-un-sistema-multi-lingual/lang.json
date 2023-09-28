@@ -1,0 +1,22 @@
+{
+	"SPA" :
+    	{
+        	"general_hello" : "Hola!",
+        	"general_submit" : "Enviar",
+            "general_help" : "Ayuda",
+            "general_name" : "Nombre",
+            "menu_reports" : "Reportes",
+            "menu_tools" : "Herramientas",
+            "menu_logout" : "Cerrar"
+        },
+	"ENG" :
+    	{
+        	"general_hello" : "Hello!",
+        	"general_submit" : "Send",
+            "general_help" : "Help",
+            "general_name" : "Name"
+            "menu_reports" : "Reports",
+            "menu_tools" : "Tools",
+            "menu_logout" : "Logout"
+        }
+}    
