@@ -4,6 +4,8 @@
         <cffile action="read" 
         		  file="#expandpath(arguments.script)#" 	
         		variable="local.file">
-        <cfreturn deserializeJSON(local.script)>
+        <cfreturn deserializeJSON(local.file)>
     </cffunction>
+
+
 </cfcomponent>
